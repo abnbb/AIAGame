@@ -7,29 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Leafs_03
-  m_Shader: {fileID: -6465566751694194690, guid: 7e82657f816ee9941b536557a92472fe,
-    type: 3}
+  m_Name: stone
+  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 159485a62b0399e48abfaf2db3a90ae1, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed58f07c8d4348b46b0563cf530a11e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 366bfb1295fa38042935b3f81ef572b7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -49,11 +49,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 68983f9dcf78e6c4e83d1b888e3905b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: ed58f07c8d4348b46b0563cf530a11e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6188fa3a68c9b9545b813e66bc4684b7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,54 +83,44 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AplhaClip: 0.33
+    - _AlphaToMask: 0
     - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
     - _BumpScale: 1
-    - _BushinteractionDistance: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistubInten: 0.7
-    - _DistubPullIten: 1
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 0
-    - _Noise: 2
-    - _NoiseMultiplier: 0.826
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _QueueControl: 0
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _SampleGI: 0
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UVSec: 0
-    - _WindSpeed: 1.47
-    - _WindStrength: 0.31
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _interactionDistance: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BushinteractionOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _CharacterPosWS: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.23331259, g: 0.46226418, b: 0.28389493, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WindDirection: {r: 50, g: 0, b: 0, a: 0}
-    - _interactionOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3391154229472873296
+--- !u!114 &8204425515519732673
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
